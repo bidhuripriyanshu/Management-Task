@@ -110,9 +110,6 @@ At `/tasks`:
 
 ```bash
 npm install
-# or
-pnpm install
-```
 
 2. Create `.env.local` in the project root:
 
@@ -125,21 +122,11 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ```bash
 npm run dev
-# or
-pnpm dev
-```
+
 
 4. Open `http://localhost:3000` in the browser.
    - You’ll be redirected to `/login` if not authenticated, or `/tasks` if you already have a session.
 
 ---
 
-## 8. Deployment (Vercel)
-
-- Push the repo to GitHub.
-- Create a new project on Vercel from that repo.
-- In Vercel project settings, add:
-  - `NEXT_PUBLIC_SUPABASE_URL`
-  - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-- Deploy and test login + task operations with two different user accounts.
 
