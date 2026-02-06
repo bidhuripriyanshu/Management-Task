@@ -1,3 +1,7 @@
 1.Installing of supabase
 2.Installing of tailwind
 3.main page.js inside the app/page.js
+4.create tasks folder
+5.connect to supabase
+6.create a table (sql) inside the supabase for management of curd operation with Row Level security
+

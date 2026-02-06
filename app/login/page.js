@@ -68,14 +68,14 @@ export default function Login() {
         <button
           onClick={signIn}
           disabled={loading}
-          className="bg-blue-500 text-white w-full p-2 rounded text-sm hover:bg-blue-600 disabled:opacity-60"
+          className="bg-blue-500 text-white w-full p-2 rounded text-sm hover:bg-black-600 disabled:opacity-60"
         >
           {loading ? "Logging in..." : "Login"}
         </button>
         <button
           onClick={signUp}
           disabled={loading}
-          className="border w-full p-2 rounded text-sm hover:bg-gray-50 disabled:opacity-60"
+          className="border w-full p-2 rounded text-sm hover:bg-blue-500 disabled:opacity-60"
         >
           {loading ? "Creating account..." : "Sign Up"}
         </button>
